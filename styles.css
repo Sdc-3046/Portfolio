@@ -1,0 +1,45 @@
+#signupbtn {
+  margin-left: 90%;
+}
+
+.signupbody {
+  background-image: url(/images/mountains.jpg);
+  background-size: cover;
+}
+
+.signupform {
+  border: 0px solid rgb(113 71 47);
+  width: 50%;
+  margin-top: 20%;
+}
+
+.formlabels {
+  font-family: sans-serif;
+  font-size: medium;
+  color: rgb(197 72 22);
+}
+
+#submitbtn {
+  border-radius: 10px;
+  width: 20%;
+  height: 40px;
+  border: 0px;
+  margin-top: 2%;
+  background-color: #d1ce54;
+}
+
+.inputs {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  border: 0px;
+  text-align: center;
+  text-decoration: darkgray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gender {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  color: darkgray;
+}
