@@ -1,0 +1,107 @@
+*{
+  margin: 0%;
+}
+
+#signupbtn {
+  margin-left: 90%;
+}
+
+.signupbody {
+  background-image: url(/images/mountains.jpg);
+  background-size: cover;
+}
+
+.signupform {
+  border: 0px solid rgb(113 71 47);
+  width: 50%;
+  margin-top: 10%;
+}
+
+.formlabels {
+  font-family: sans-serif;
+  font-size: medium;
+  color: rgb(197 72 22);
+}
+
+#submitbtn {
+  border-radius: 10px;
+  width: 20%;
+  height: 40px;
+  border: 0px;
+  margin-top: 2%;
+  color: wheat;
+  font-size: larger;
+  background-color: black;
+}
+
+.inputs {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  border: 0px;
+  text-align: center;
+  text-decoration: darkgray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+
+.gender {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  color: darkgray;
+}
+
+.navbar * {
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+
+  height: 50px;
+}
+
+.navbuttons {
+  list-style-type: none;
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  right: 10px;
+}
+
+.navbuttons li {
+  display: block;
+  float: left;
+  padding: 10;
+  margin: 10px;
+  padding-top: 7px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: wheat;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#username {
+  color: wheat;
+  font-style: italic;
+  margin-left: 2%;
+  padding-top: 4px;
+  }
+
+  .headsignup{
+    position:absolute;
+    top: 15%;
+    left: 44%;
+  }
+
+  .headsignup h1{
+    width: 150px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: wheat;
+  }
