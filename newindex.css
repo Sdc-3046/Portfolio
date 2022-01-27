@@ -35,9 +35,12 @@
   font-weight: bold;
 }
 
-#username {
+#username a{
+  text-decoration: none;
   color: wheat;
   font-style: italic;
+}
+#username {
   margin-left: 2%;
   padding-top: 4px;
   }

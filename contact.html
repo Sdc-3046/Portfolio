@@ -7,7 +7,7 @@
   </head>
   <body style="background-color: #AA96DA;">
     <div class="navbar">
-      <h1 id="username">Shubham Chavan</h1>
+      <h1 id="username"><a href="/newindex.html">Shubham Chavan</a></h1>
 
       <ul class="navbuttons">
           <li><a href=signup.html >Sign Up</a></li>
@@ -38,12 +38,13 @@
     <center>  
       <h1 id="contactusr">Contact Me</h1>
       <form class="mailform" action="mailto:chavanshubham879@gmail.com" method="post" enctype="text/plain">
-        <input type="text" name="Name" value="" placeholder="Enter Your Name"><br /><br>
-        <input type="email" name="Email" value="" placeholder="Enter Your Email-ID"><br /><br>
-        <textarea class="msgbox" name="Message" rows="5" cols="80" placeholder="Enter Your Message"></textarea><br><br>
-        <input type="file" name="" value="fileupload"><br><br>
+        <input type="text" name="Name" value="" placeholder="Enter Your Name" required><br /><br>
+        <input type="email" name="Email" value="" placeholder="Enter Your Email-ID" required><br /><br>
+        <textarea class="msgbox" name="Message" rows="5" cols="80" placeholder="Enter Your Message" required></textarea><br><br>
+        <input type="file" name="" value="fileupload" required><br><br>
+        <input type="date" name="date" required> <br>  
         <input id="submitbtn" type="submit" name="" value="Submit">
-  
+        
       </form>
     </center>
 </div>
