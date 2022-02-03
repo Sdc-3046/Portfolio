@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calci/calci.css">
+    
+</head>
+<body class="bg">
+    <div class="container">
+        <div class="output">
+            <div previous-operand class="previous-operand"></div>
+            <div current-operand class="current-operand"></div>
+        </div>
+        <div class="inputs">
+            <div class="digits">
+                <div>
+                    <button data-number id="one" class="inp">1</button>
+                    <button data-number id="two" class="inp">2</button>
+                    <button data-number id="three" class="inp">3</button>
+                    <button data-operation id="plus" class="inp">+</button>
+                </div>
+                <div>
+                    <button data-number id="four" class="inp">4</button>
+                    <button data-number id="five" class="inp">5</button>
+                    <button data-number id="six" class="inp">6</button>
+                    <button data-operation id="minus" class="inp">-</button>
+                </div>
+                <div>
+                    <button data-number id="seven" class="inp">7</button>
+                    <button data-number id="eight" class="inp">8</button>
+                    <button data-number id="nine" class="inp">9</button>
+                    <button data-operation id="multiply" class="inp">*</button>
+                </div>
+                <div>
+                    <button data-number id="zero" class="inp">0</button>
+                    <button data-equals id="equal" class="inp">=</button>
+                    <button data-operation id="divide" class="inp">/</button>
+                </div>
+                <div>
+                    <button data-clear id="empty" class="inp">C</button>
+                    <button data-delete id="backspace" class="inp">←</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/calci/calci.js"></script>
+</body>
+</html>
